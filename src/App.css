@@ -1,38 +1,49 @@
-.App {
+.title {
+  margin-top:50px;
+  text-align: center;
+  color: black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+  background-color: rgb(230, 247, 206);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.img-style {
+  width: 400px;
+  height:300px;
+  margin: 30px;
+}
+
+.button-location {
+  margin:1em;
+  text-align: center;
+  border: 1em;
+}
+
+.button-style {
+  width:100px;
+  height:80px;
+}
+
+.WIN {
+  border: 10px solid green;
+  color:green;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.LOSE {
+  border: 10px solid red;
+  color: red;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.TIE {
+  border: 10px solid black;
+  color: black;
+  text-align: center;
 }
